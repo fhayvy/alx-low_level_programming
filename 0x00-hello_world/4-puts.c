@@ -1,9 +1,8 @@
 #include<stdio.h>
-int main ()
+int main(void)
 {
-    char first_variable[] = "\"Programming is like building a multilingual puzzle\n";
+	char first_var[] = "\"Programming is like building a multilingual puzzle\n";
+	puts(first_variable);
 
-    puts(first_variable);
-
-    return 0;
+	return (0);
 }
