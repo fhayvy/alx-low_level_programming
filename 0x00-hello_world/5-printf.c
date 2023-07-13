@@ -5,9 +5,8 @@
  */
 int main(void)
 {
-	char first_var[] = "with proper grammar, but the outcome is a piece of art,";
 
-	printf(first_var);
+	printf("with proper grammar, but the outcome is a piece of art,");
 
 	return (0);
 }
