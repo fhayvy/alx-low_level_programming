@@ -21,5 +21,7 @@ int main(void)
 			putchar('a' + (ch - 10));
 		}
 	}
+	putchar('\n');
+
 	return (0);
 }
