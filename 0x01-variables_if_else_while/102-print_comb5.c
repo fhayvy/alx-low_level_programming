@@ -11,17 +11,19 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = 0; a < 10; a++)
+	for (a = 0; a < 100; a++)
 	{
-		for (b = 0; b < 10; b++)
+		for (b = 0; b < 100; b++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
 			putchar(' ');
-			if (a != 9 && b != 9)
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
+			if (a != 99 && b != 98)
 			{
-			//	putchar(',');
-			//	putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
