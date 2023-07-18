@@ -9,9 +9,9 @@
 
 int _islower(int c)
 {
-	int c;
+	int r;
 
-	if (c >= 97 && c <= 122)
+	if (r >= 'a' && r <= 'z')
 	{
 		return (1);
 	}
