@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point to print _putchar
- * 
+ *
  * Return: Always 0 (Success)
  */
 
