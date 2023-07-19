@@ -10,21 +10,19 @@ int main(void)
 {
 	int a = 0;
 	int b = 1;
-	int n = 0;
 	int sum;
+	int even_sum = 0;
 
-	while (n <= 49)
+	while (sum <= 4000000)
 	{
 		sum = (a + b);
-		printf("%d", sum);
-
-		if (n != 49)
+		if ((sum % 2) == 0)
 		{
-			printf(", ");
+			even_sum += sum;
+			printf("%d", even_sum);
 		}
-		b = a;
-		a = sum;
-		n++;
+		a = b;
+		b = sum;
 	}
 
 	printf("\n");
