@@ -19,10 +19,10 @@ int main(void)
 		if ((sum % 2) == 0)
 		{
 			even_sum += sum;
-			printf("%d", even_sum);
 		}
 		a = b;
 		b = sum;
+		printf("%d", even_sum);
 	}
 
 	printf("\n");

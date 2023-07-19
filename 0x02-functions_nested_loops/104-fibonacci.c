@@ -10,23 +10,21 @@ int main(void)
 {
 	int a = 0;
 	int b = 1;
-	int n = 0;
 	int sum;
+	int c = 0;
+	
+	printf("%d", a);
+	printf("%d", b);
 
-	while (n <= 49)
+	while (c < 98)
 	{
 		sum = (a + b);
 		printf("%d", sum);
-
-		if (n != 49)
+		if (c != 97)
 		{
 			printf(", ");
 		}
-		a = b;
-		b = sum;
-		n++;
 	}
-
 	printf("\n");
 
 	return (0);
