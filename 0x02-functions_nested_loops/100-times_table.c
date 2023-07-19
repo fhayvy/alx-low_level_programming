@@ -10,13 +10,13 @@
 
 void print_times_table(int n)
 {
-	int a, b, ch;
+	int ch;
 
-	for (a = 0; a <= 15; a++)
+	for (n = 0; n <= 15; n++)
 	{
-		for (b = 0; b <= 15; b++)
+		for (n = 0; n <= 15; n++)
 		{
-			ch = (a * b);
+			ch = (n * n);
 
 			if (ch > 100)
 			{
