@@ -16,7 +16,7 @@ int main(void)
 	while (n <= 49)
 	{
 		sum = (a + b);
-		printf("%d", sum);
+		printf("%ld", sum);
 
 		if (n != 49)
 		{
