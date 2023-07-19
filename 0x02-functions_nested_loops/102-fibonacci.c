@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int a = 0;
-	int b = 1;
-	int n = 0;
-	int sum;
+	long int a = 0;
+	long int b = 1;
+	long int n = 0;
+	long int sum;
 
 	while (n <= 49)
 	{

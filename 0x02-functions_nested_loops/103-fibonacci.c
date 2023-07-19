@@ -22,8 +22,8 @@ int main(void)
 		}
 		a = b;
 		b = sum;
-		printf("%d", even_sum);
 	}
+	printf("%d", even_sum);
 
 	printf("\n");
 
