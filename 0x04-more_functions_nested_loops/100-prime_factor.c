@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Find and print largest prime factor of 612852475143
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
-
 int main(void)
 {
 	long int f, n, lf;
