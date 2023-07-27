@@ -6,10 +6,13 @@
  * @dest: String 1
  * @src: String 2
  *
+ * Return: The concatenated string
  */
 
 char *_strcat(char *dest, char *src)
 {
+	char *ptr = dest;
+
 	while (*dest != '\0')
 	{
 		dest++;
@@ -21,5 +24,5 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return (dest);
+	return (ptr);
 }
