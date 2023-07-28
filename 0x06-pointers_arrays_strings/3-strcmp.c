@@ -17,14 +17,15 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[index] != s2[index])
 		{
-			return result;
+			return (result);
 		}
 		else if (*s1 == *s2)
 		{
-			return (0);
+			result = 0;
+			return (result);
 		}
 	s1++;
 	s2++;
 	}
-	return result;
+	return (result);
 }
