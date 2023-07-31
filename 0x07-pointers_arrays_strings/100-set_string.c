@@ -5,7 +5,6 @@
  *
  * @to: The pointer
  * @s: A double pointer
- * 
  */
 
 void set_string(char **s, char *to)
