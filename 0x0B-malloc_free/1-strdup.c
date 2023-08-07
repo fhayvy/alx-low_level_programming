@@ -20,12 +20,13 @@ char *_strdup(char *str)
 	{
 		l++;
 	}
-	array = (char *)malloc(sizeof(char) * (l + 1));
-
 	if (l == 0)
 	{
 		return (NULL);
 	}
+
+	array = (char *)malloc(sizeof(char) * (l + 1));
+
 	while (i < l)
 	{
 		array[i] = str[i];
