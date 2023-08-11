@@ -8,7 +8,7 @@
  * @nmemb: An array of elements
  * @size: The size of the array
  *
- * Return: 
+ * Return: A pointer to an array
  */
 
 
