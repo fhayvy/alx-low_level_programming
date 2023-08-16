@@ -2,10 +2,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - Entry point
+ * @argc: The size of the array
+ * @argv: An array containing command line arguments
+ *
+ * Return: Always 0 (Success)
+ */
+
 
 int main(int argc, char *argv[])
 {
-	int (* ptr)(int, int);
+	int (*ptr)(int, int);
 
 	if (argc != 4)
 	{
