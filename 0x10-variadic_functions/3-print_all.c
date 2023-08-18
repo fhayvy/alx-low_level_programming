@@ -90,7 +90,7 @@ void print_char_ptr(char *separator, va_list args)
 {
 	char *a = va_arg(args, char *);
 
-	if(a == NULL)
+	if (a == NULL)
 	{
 		printf("%s%s", separator, "(nil)");
 		return;
