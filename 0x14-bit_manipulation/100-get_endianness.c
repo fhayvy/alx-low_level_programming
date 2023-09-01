@@ -3,8 +3,8 @@
 
 
 /**
- * get_endianness - Describes the order in which a sequence of bit is stored in memory
- *
+ * get_endianness - Describes the order in which a sequence
+ *			of bit is stored in memory
  * Return: 0 if big endian, 1 if little endian
  */
 
