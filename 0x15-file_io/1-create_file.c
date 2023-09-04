@@ -11,8 +11,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int letters = 0;
-	int fd, new_txt;
+	int fd;
 
 	if (filename == NULL)
 	{
@@ -27,15 +26,15 @@ int create_file(const char *filename, char *text_content)
 	if (text_content == NULL)
 		text_content = " ";
 
-	while (text_content[letters])
+	while (*text_content)
 	{
-		new_txt = write(fd,  text_content, letters);
-
-		if (new_txt == -1)
+		if (write(fd, text_content, 1) == -1)
+		{
+			close(fd);
 			return (-1);
-		letters++;
+		}
+		text_content++;
 	}
-
 
 	close(fd);
 
